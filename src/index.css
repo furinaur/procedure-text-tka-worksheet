@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --tj-dark-blue: #1E468E;
+    --tj-light-blue: #3381C3;
+    --tj-orange: #FA8A14;
+    font-family: 'PT Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: 'PT Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+  }
+}
+
+/* Custom scrollbars for clean educational worksheet */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Procedure Text TKA Worksheet",
+  "description": "Interactive adaptive procedure text worksheet featuring step sequencing, TKA-style comprehension questions, 15-minute timer, streak tracking, and direct WhatsApp tutor reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
